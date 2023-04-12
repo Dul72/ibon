@@ -1,0 +1,414 @@
+.f-color-1{
+ color: #eaa852;
+}
+.f-color-2{
+  color:#865920;
+}
+.f-color-3{
+  color: #e4862b;
+}
+.f-color-4{
+  color: #6b1414;
+}
+.my-pb1{
+  padding-bottom:.5rem;
+}
+.my-py1{
+  padding: 1.5rem 0rem;
+}
+.align-text{
+  text-align: center;
+}
+.my-flex{
+  display: flex; 
+  align-items: center;
+  flex-direction: column-reverse;
+}
+@media (min-width: 576px) {
+  .my-flex{
+    flex-direction: row;
+  }
+  .align-text{
+    text-align: right;
+  }
+  .my-py1{
+    padding:.2rem 0rem;
+  }
+  .my-pb1{
+    padding-bottom:5rem;
+  }
+}
+.c_h1{
+  padding-top: 24rem;
+  font-size:160%;
+  color: #f1d4b6;
+  text-align: center;
+}
+.my-img{
+  height: 10rem;
+}
+@media (min-width: 576px) {
+  .c_h1{
+    padding-top: 40rem;
+    font-size:210%;
+    color: #f1d4b6;
+    font-weight:2000;
+  }
+}
+
+@media (min-width: 768px) {
+  .c_h1{
+    padding-top: 10rem;
+    font-size:200%;
+    color: #f1d4b6;
+    font-weight:2000;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .c_h1{
+    padding-top: 9.5rem;
+    font-size:250%;
+  }
+}
+@media (min-width: 1200px) {
+  .c_h1{
+    font-size:300%;
+  }
+}
+
+
+.c_h2{
+  font-size:100%;
+  padding-top: .8rem;
+  color: #b97730;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .c_h2{
+    margin-top:20px;
+    font-size:150%;
+    font-weight:2000;
+  }
+}
+@media (min-width: 768px) {
+  .c_h2{
+    margin-top:20px;
+    font-size:110%;
+    color: #b97730;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .c_h2{
+    margin-top:30px;
+    font-size:190%;
+    margin-bottom:30px;
+  }
+}
+@media (min-width: 1200px) {
+  .c_h2{
+    font-size:190%;
+  }
+}
+
+.c-f-1{
+  font-size: 40px; font-weight: bold;
+}
+.c-f-2{
+  font-weight: bold;
+}
+
+.c-f-3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.section-one{
+  min-height: 100vh;
+}
+
+.section-3{
+  padding: 3.5rem 0rem;
+  text-align: center;
+  background-size: contain;
+}
+@media (min-width: 768px) {
+  .section-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.cover_image{
+  background-image: url(../img/3.png), linear-gradient( 234deg , #260800 , #170202);
+  background-size: contain;
+  background-position: 100px right;
+  background-repeat: no-repeat;  display: flex;
+  justify-content: center;
+ 
+}
+
+@media (min-width: 576px) {
+  .cover_image{
+    background-image: url(../img/3.png), linear-gradient( 234deg , #260800 , #170202);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;  display: flex;
+    justify-content: center;
+   
+  }
+}
+
+@media (min-width: 1200px) {
+  .cover_image{
+    background-image: url(../img/2.png);
+    background-size: cover;
+  }
+}
+.button-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .button-center{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+}
+.c-btn{
+  border: 1px solid rgb(245, 168, 81);
+  background: #eaa852;
+  width:7rem;
+  color: #7e2b16;
+  padding: .7rem 0rem;
+  border-radius: 20px;
+  font-weight: bold;
+  /* font-size: 20px; */
+  transition: .2s;
+}
+
+.c-btn:hover{
+  background: #f1d4b6;
+  color: #160505;
+}
+
+/* .c-btn{
+  border: 1px solid rgb(245, 168, 81);
+  background: #eaa852;
+  width: 14rem;
+  color: #7e2b16;
+  padding: .7rem 0rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .2s;
+}
+
+.c-btn:hover{
+  background: #f1d4b6;
+  color: #160505;
+} */
+
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.my-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+  border-radius: 20px;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.icons span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: brown;
+  margin: 0px 5px;
+}
+.card-text{
+text-align: center;
+  
+}
